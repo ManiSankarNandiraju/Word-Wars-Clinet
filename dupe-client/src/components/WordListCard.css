@@ -1,0 +1,44 @@
+.background {
+  background-image: url('img/background2.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+
+
+}
+.background-form{
+  background-image: url('img/background.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+
+}
+.card {
+	font-family: Inter,sans-serif;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+.word-list {
+    list-style: none;
+    padding: 0;
+}
+
+.word-list li {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}

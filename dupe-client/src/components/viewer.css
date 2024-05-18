@@ -1,0 +1,20 @@
+.words-container-viewer{
+	position: relative;
+    float: left;
+	width: 500px;
+	height: 300px;
+	margin-right: 160px;
+	border-radius: 10px;
+	background: linear-gradient(180deg, rgba(141, 208, 255, 0.76) 0%, rgba(141, 255, 234, 0.18) 100%);
+	box-shadow: 4px 4px 10px 0px #000;
+}
+.guesses-container-viewer{
+	position: relative;
+	width: 500px;
+	height: 300px;
+    float: right;
+	margin-left: 160px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #6BEBDB 0%, rgba(0, 177, 156, 0.99) 0.01%, rgba(115, 232, 248, 0.19) 100%);
+    box-shadow: 4px 4px 10px 0px #000;
+}

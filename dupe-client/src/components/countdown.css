@@ -1,0 +1,34 @@
+  /* Define a class for the progress container */
+  .timer-container {
+    width: 400px;
+    background-color: #f8b5b5;
+    border-radius: 15px;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+    margin-left: 460px;
+    margin-top: 180px;
+  }
+  
+  .timer-bar {
+	position: relative;
+	width: 0%;
+	height: 10px;
+	background-color: #f24336;
+	text-align: center;
+	line-height: 10px;
+	color: white;
+	border-radius: 15px;
+  }
+
+  
+.timer-container-guesser {
+    width: 400px;
+    background-color: #f8b5b5;
+    border-radius: 15px;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+    margin-left: 64px;
+    margin-top: 180px;
+  }

@@ -1,0 +1,426 @@
+.users-list {
+    background-color: rgb(60, 125, 165);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 180px;
+    filter: drop-shadow(4px 4px 10px #000);
+
+}
+
+.users-list label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fafafa;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.50), 4px 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+.user-content p {
+    margin: 10; /* Remove default margin */
+    display: block; /* Ensure each paragraph is displayed as a block */
+}
+.joinscreen-medivalblock {
+  position: relative;
+  width: 230px;
+  height: 360px;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-top: 300px;
+  margin-right: 220px; /* Adjusted space */
+  float: left;
+  background: linear-gradient(180deg, #A84D00 0%, #FFB677 100%);
+  filter: drop-shadow(4px 4px 10px #000);
+}
+
+.joinscreen-modrenblock {
+  position: relative;
+  width: 230px;
+  height: 360px;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-top: 300px;
+  margin-left: 220px; /* Adjusted space */
+  float: right;
+  background: linear-gradient(180deg, #4F5F58 0%, #9DC1B1 100%);
+  filter: drop-shadow(4px 4px 10px #000);
+}
+
+
+.medivalblock {
+    position: relative;
+    width: 230px;
+    height: 360px;
+    margin-top: 25px;
+    border-radius: 10px;
+    float: left;
+    background: linear-gradient(180deg, #A84D00 0%, #FFB677 100%);
+    filter: drop-shadow(4px 4px 10px #000);
+}
+
+.modrenblock {
+    position: relative;
+    width: 230px;
+    height: 360px;
+    margin-top: 25px;
+    border-radius: 10px;
+    float: right;
+    background: linear-gradient(180deg, #4F5F58 0%, #9DC1B1 100%);
+    filter: drop-shadow(4px 4px 10px #000);
+}
+
+
+  /* Define a class for the progress container */
+  .progress-container-medivalage , .progress-container-modrenage{
+    width: 230px; /* Set the width of the container to 100% */
+    background-color: #b5c5f8; /* Set a background color for the container */
+    border-radius: 15px;
+  }
+  
+  /* Define a class for the progress bar */
+  .progress-bar-medivalage , .progress-bar-modrenage{
+    width: 0%; /* Set the initial width of the progress bar to 0% */
+    height: 10px; /* Set the height of the progress bar */
+    background-color: #367bf2; /* Set the background color of the progress bar */
+    text-align: center; /* Center the text within the progress bar */
+    line-height: 10px; /* Set the line height to vertically center the text */
+    color: white; /* Set the text color to white */
+    border-radius: 15px;
+  }
+
+  .medivalage-team-container {
+    position: relative;
+    width: 230px;
+    margin-top: 300px;
+    margin-right: 292px; /* Adjusted space */
+    float: left;
+  }
+
+  .modrenage-team-container {
+    position: relative;
+    width: 230px;
+    margin-top: 300px;
+    margin-left: 292px; /* Adjusted space */
+    float: right;
+  }
+
+
+.modrenage {
+
+    align-items: center;
+    background-color: #FFF;
+	border: 2px solid #111;
+	border-radius: 8px;
+	box-sizing: border-box;
+	color: #111;
+	cursor: pointer;
+	margin-top: 115px;
+	justify-content: center;
+	font-family: Inter,sans-serif;
+    font-size: 18px;
+    height: 50px;
+    line-height: 22px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+	text-decoration: none;
+    font-weight: bold;
+    box-shadow: 4px 4px 10px 0px #000;
+    
+}
+.modrenage:after {
+	background-color: #111;
+	border-radius: 8px;
+	content: "";
+	display: block;
+	height: 48px;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	top: -2px;
+	transform: translate(8px, 8px);
+	transition: transform .2s ease-out;
+	z-index: -1;
+  }
+  
+  .modrenage:hover:after {
+	transform: translate(0, 0);
+  }
+  
+  .modrenage:active {
+	background-color: #9fb3f2;
+	outline: 0;
+  }
+  
+  .modrenage:hover {
+	outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+	.modrenage {
+	  padding: 0 40px;
+	}
+  }
+.medivalage{
+
+  align-items: center;
+  background-color: #FFF;
+border: 2px solid #111;
+border-radius: 8px;
+box-sizing: border-box;
+color: #111;
+cursor: pointer;
+margin-top: 115px;
+justify-content: center;
+font-family: Inter,sans-serif;
+  font-size: 18px;
+  height: 50px;
+  line-height: 22px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+text-decoration: none;
+  font-weight: bold;
+  box-shadow: 4px 4px 10px 0px #000;
+  
+}
+.medivalage:after {
+	background-color: #111;
+	border-radius: 8px;
+	content: "";
+	display: block;
+	height: 48px;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	top: -2px;
+	transform: translate(8px, 8px);
+	transition: transform .2s ease-out;
+	z-index: -1;
+  }
+  
+  .medivalage:hover:after {
+	transform: translate(0, 0);
+  }
+  
+  .medivalage:active {
+	background-color: #9fb3f2;
+	outline: 0;
+  }
+  
+  .medivalage:hover {
+	outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+	.medivalage {
+	  padding: 0 40px;
+	}
+  }
+  .medivalblock .medivalage.joined span,
+  .modrenblock .modrenage.joined span {
+    opacity: 0.5;
+  }
+  
+  .teammedival {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px #000;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto; /* Center horizontally */
+    position: relative;
+}
+
+.teammedival p {
+    margin-left: 0; /* Remove default margin */
+    display: block; /* Ensure each paragraph is displayed as a block */
+}
+
+
+.teammodren{
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px #000;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto; /* Center horizontally */
+  position: relative;
+}
+.teammodren p {
+  margin-left: 0; /* Remove default margin */
+  display: block; /* Ensure each paragraph is displayed as a block */
+}
+
+
+.startbutton{
+    align-items: center;
+    background-color: #FFF;
+	border: 2px solid #111;
+	border-radius: 8px;
+	box-sizing: border-box;
+	color: #111;
+	cursor: pointer;
+	margin-top: 75px;
+	justify-content: center;
+	font-family: Inter,sans-serif;
+    font-size: 18px;
+    height: 50px;
+    line-height: 22px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+	text-decoration: none;
+    font-weight: bold;
+    box-shadow: 4px 4px 10px 0px #000;
+}
+.startbutton:after {
+	background-color: #111;
+	border-radius: 8px;
+	content: "";
+	display: block;
+	height: 48px;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	top: -2px;
+	transform: translate(8px, 8px);
+	transition: transform .2s ease-out;
+	z-index: -1;
+  }
+  
+  .startbutton:hover:after {
+	transform: translate(0, 0);
+  }
+  
+  .startbutton:active {
+	background-color: #9fb3f2;
+	outline: 0;
+  }
+  
+  .startbutton:hover {
+	outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+	.startbutton {
+	  padding: 0 40px;
+	}
+  }
+
+  .readybutton{
+    align-items: center;
+    background-color: #FFF;
+	border: 2px solid #111;
+	border-radius: 8px;
+	box-sizing: border-box;
+	color: #111;
+	cursor: pointer;
+	justify-content: center;
+	font-family: Inter,sans-serif;
+    font-size: 18px;
+    height: 50px;
+    line-height: 22px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+	text-decoration: none;
+    font-weight: bold;
+    box-shadow: 4px 4px 10px 0px #000;
+}
+.readybutton:after {
+	background-color: #111;
+	border-radius: 8px;
+	content: "";
+	display: block;
+	height: 48px;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	top: -2px;
+	transform: translate(8px, 8px);
+	transition: transform .2s ease-out;
+	z-index: -1;
+  }
+  
+  .readybutton:hover:after {
+	transform: translate(0, 0);
+  }
+  
+  .readybutton:active {
+	background-color: #9fb3f2;
+	outline: 0;
+  }
+  
+  .readybutton:hover {
+	outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+	.readybutton {
+	  padding: 0 40px;
+	}
+  }
+  
+  .comments {
+    position: relative;
+    margin-top:120 px;
+    margin-left: auto;
+    margin-right: auto;
+    width:300px;
+  }
+  .team1-background{
+    background-image: url('img/medivalwon.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+  }
+
+  .team2-background{
+    background-image: url('img/modrenwon.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+  }
+  .result-card{
+    font-size: 20px;
+    margin-top: 343px;
+    margin-left: 584px;
+    color: white;
+    font-weight: bold;
+  }
+  .finalscores{
+    color: white;
+    font-size: 10px;
+    opacity: 0.5;
+    
+  }

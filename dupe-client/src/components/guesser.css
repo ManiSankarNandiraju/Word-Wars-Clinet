@@ -1,0 +1,11 @@
+
+.guesses-container-guesser{
+	position: relative;
+    padding: 10px;
+	width: 500px;
+	height: 300px;
+    margin-left: 4px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #6BEBDB 0%, rgba(0, 177, 156, 0.99) 0.01%, rgba(115, 232, 248, 0.19) 100%);
+    box-shadow: 4px 4px 10px 0px #000;
+}
